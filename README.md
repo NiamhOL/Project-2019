@@ -60,7 +60,7 @@ from scripy import stats
 
 ## References
 
-#2 https://www,ritchieng.com/machine-learning-iris-dataset/
+https://www,ritchieng.com/machine-learning-iris-dataset/#1
 
 ## Biblography 
 
