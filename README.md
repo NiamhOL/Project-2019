@@ -62,9 +62,6 @@ Import the iris.csv file using panda and examine the first few lines of data and
 ### Summary of basic statistics 
 
 
-data.describe()
-
-data.corr()
 
  
 
