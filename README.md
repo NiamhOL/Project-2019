@@ -3,13 +3,14 @@
 
 ## Introduction
 
-The Iris flower data is a multivariate dataset introduced by biologist and statistician Ronald Fisher in 1936 in his paper *The use of multiple measurements in taxonomic problems."* It is an excellent example of linear discrimniant. This is based on the concept of searching for a  linear combination of variables that best seperates two classes. 
+The Iris flower data is a multivariate dataset introduced by biologist and statistician Ronald Fisher in 1936 in his paper *The use of multiple measurements in taxonomic problems."* It is an excellent example of linear discrimniant. This is based on the concept of searching for a linear combination of variables that best seperates two classes.[1]
 
 ## About the Iris Dataset
 
 The dataset consists of fifty samples from three species of iris (*Iris setosa, Iris virginica* and *Iris versicolor*). 
 
 ![iris species](https://cdn-images-1.medium.com/max/1600/1*2uGt_aWJoBjqF2qTzRc2JQ.jpeg)
+
 
 - The iris dataset contains the following data
   - 50 samples of the 3 different species of iris (150 samples in total)
@@ -64,7 +65,9 @@ from scripy import stats
 
 ## References
 
-[2] https://www,ritchieng.com/machine-learning-iris-dataset/#2
+[1] Ogubdowole, O.O (Oct 31, 2017), _Basic analysis of the Iris Data set using python_ https://medium.com/codebagng/basic-analysis-of-the-iris-data-set-using-python-2995618a6342
+[2] Hg, R. (2019) _Iris Dataset_ https://www,ritchieng.com/machine-learning-iris-dataset/#2
+
 
 ## Biblography 
 
