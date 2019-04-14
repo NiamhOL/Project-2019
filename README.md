@@ -20,8 +20,6 @@ The dataset consists of fifty samples from three species of iris (*Iris setosa, 
 ![iris](https://raw.githubusercontent.com/ritchieng/machine-learning-dataschool/master/images/03_iris.png)
 
 
-
-
 ## Task
 
 
@@ -54,6 +52,9 @@ from scripy import stats
 
 ## Importing the data
 
+Import the iris.csv file using panda and examine the first few rows of data.
+
+
 
 ## Using Python for statistical analysis of the dataset
 
@@ -75,8 +76,9 @@ from scripy import stats
 
 Machine Learning with Iris Dataset - https://kaggle.com/jchen2186/machine-learning-with-iris-dataset
 
+Sir Ronald Alymer Fisher (Encyclopaedia Britannica) - https://www.britannica.com/biography/Ronald-Aylmer-Fisher
 
-
+Fisher, R.A. (1936), _The Use of Multiple MEasuerments in Taxonomic Problems_, Annals of Eugenics, pp.179-188.
 
 ## Author - Niamh O'Leary
 
