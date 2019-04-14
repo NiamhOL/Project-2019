@@ -14,7 +14,7 @@ The dataset consists of fifty samples from three species of iris (*Iris setosa, 
 - The iris dataset contains the following data
   - 50 samples of the 3 different species of iris (150 samples in total)
   - Measurements: sepal lenght, sepal width, patal length and petal width.
-- The format for the data: (sepal lenght, sepal width, petal lenght, petal width) #2
+- The format for the data: (sepal lenght, sepal width, petal lenght, petal width)#2
 
 
 ## Task
@@ -60,7 +60,7 @@ from scripy import stats
 
 ## References
 
-https://www,ritchieng.com/machine-learning-iris-dataset/#1
+https://www,ritchieng.com/machine-learning-iris-dataset/#2
 
 ## Biblography 
 
