@@ -13,15 +13,17 @@ The Iris flower data is a multivariate dataset introduced by biologist and stati
 ## Packages used in this project
 
 The following packages are required to run this program
-- Python https://www.python.org/downloads/
-- Anaconda https://www.anaconda.com/distribution/
+- **___Python https://www.python.org/downloads/
+- **___Anaconda https://www.anaconda.com/distribution/
 - iPython https://ipython.org/
 - Numpy http://www.numpy.org/
 - Matplotlib https://matplotlib.org/
+- Seaborn 
 
 ## Getting started
 1. Download and install Python and Anaconda
-2. All files associated with this project are available at 
+2. All files associated with this project are available at https://github.com/NiamhOL/Project-2019
+3. The Iris Dateset is saved as a .csv file in the associated Git Hub repository. To open this file 
 
 ## Importing the data
 
