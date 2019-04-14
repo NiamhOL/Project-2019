@@ -9,12 +9,16 @@ The Iris flower data is a multivariate dataset introduced by biologist and stati
 
 The dataset consists of fifty samples from three species of iris (*Iris setosa, Iris virginica* and *Iris versicolor*). 
 
-![iris](https://raw.githubusercontent.com/ritchieng/machine-learning-dataschool/master/images/03_iris.png)
+![iris species](https://cdn-images-1.medium.com/max/1600/1*2uGt_aWJoBjqF2qTzRc2JQ.jpeg)
 
 - The iris dataset contains the following data
   - 50 samples of the 3 different species of iris (150 samples in total)
-  - Measurements: sepal lenght, sepal width, patal length and petal width.
+  - Measurements: sepal lenght, sepal width, petal length and petal width.
 - The format for the data: (sepal lenght, sepal width, petal lenght, petal width)[2]
+
+![iris](https://raw.githubusercontent.com/ritchieng/machine-learning-dataschool/master/images/03_iris.png)
+
+
 
 
 ## Task
