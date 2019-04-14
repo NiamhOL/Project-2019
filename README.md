@@ -12,13 +12,14 @@ The Iris flower data is a multivariate dataset introduced by biologist and stati
 
 ## Packages used in this project
 
-The following packages are required to run this program
-- **___Python https://www.python.org/downloads/
-- **___Anaconda https://www.anaconda.com/distribution/
-- iPython https://ipython.org/
-- Numpy http://www.numpy.org/
-- Matplotlib https://matplotlib.org/
-- Seaborn 
+The following packages were used to run statistical analysis and draw grpahs for this project.
+- **_Python_** https://www.python.org/downloads/
+- **_Anaconda_** https://www.anaconda.com/distribution/
+- **_iPython_** https://ipython.org/
+- **_Scripy_** https://pypi.org/project/Scripy/
+- **_Numpy_** http://www.numpy.org/
+- **_Matplotlib_** https://matplotlib.org/
+- **_Seaborn_** https://seaborn.pydata.org/
 
 ## Getting started
 1. Download and install Python and Anaconda
