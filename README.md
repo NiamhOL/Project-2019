@@ -8,9 +8,20 @@ The Iris flower data is a multivariate dataset introduced by biologist and stati
 ## Task
 
 
+
+
 ## Packages used in this project
 
-## Importing the packages
+The following packages are required to run this program
+- Python https://www.python.org/downloads/
+- Anaconda https://www.anaconda.com/distribution/
+- iPython https://ipython.org/
+- Numpy http://www.numpy.org/
+- Matplotlib https://matplotlib.org/
+
+## Getting started
+1. Download and install Python and Anaconda
+2. All files associated with this project are available at 
 
 ## Importing the data
 
@@ -23,3 +34,14 @@ The Iris flower data is a multivariate dataset introduced by biologist and stati
 ## Summary 
 
 ## References
+
+## Biblography 
+
+10 minutes to pandas - https://pandas.pydata.org/pandas-docs/stable/getting_started/10min.html
+
+Machine Learning with Iris Dataset - https://kaggle.com/jchen2186/machine-learning-with-iris-dataset
+
+
+## Author - Niamh O'Leary
+
+## Licence 
