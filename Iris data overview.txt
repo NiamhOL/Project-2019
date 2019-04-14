@@ -30,6 +30,7 @@ SepalLengthCm    150 non-null float64
 SepalWidthCm     150 non-null float64
 PetalLengthCm    150 non-null float64
 PetalWidthCm     150 non-null float64
+Species          150 non-null object
 dtypes: float64(4), int64(1), object(1)
 memory usage: 7.1+ KB
 
