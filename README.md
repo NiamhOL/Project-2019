@@ -55,7 +55,6 @@ from scripy import stats
 Import the iris.csv file using panda and examine the first few lines of data and the headings. 
 
 
- 
 
 ## Using Python for statistical analysis of the dataset
 
