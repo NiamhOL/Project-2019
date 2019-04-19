@@ -77,6 +77,9 @@ The fist step in anlysisng the Iris Dataset is to take a closer look at the data
 
 #### Boxplot
 
+The best tool to identify the outliers is the boxplot. "Through the box plots, we find the minimum, lower quartile (25th percentile), median (50th percentile), upper quartile (75th percentile), and a maximum of a contunues variable."[3] A boxplot of the Iris Dataset can 
+
+
 ![Boxplot2](https://github.com/NiamhOL/Project-2019/blob/master/Plot%20showing%20data%20points%20on%20top%20of%20boxplot.png)
 
 
@@ -84,6 +87,10 @@ The fist step in anlysisng the Iris Dataset is to take a closer look at the data
 
 
 The box plot shows the univariate form of each meaurement. 
+
+#### Histogram
+
+![Histogram](https://github.com/NiamhOL/Project-2019/blob/master/Histogram.png)
 
 #### Relationships
 
@@ -119,6 +126,7 @@ Scatterplots can be helpful to spot structured relationships between differnt va
 
 [1] Ogubdowole, O.O (Oct 31, 2017), _Basic analysis of the Iris Data set using python_ https://medium.com/codebagng/basic-analysis-of-the-iris-data-set-using-python-2995618a6342
 [2] Hg, R. (2019) _Iris Dataset_ https://www,ritchieng.com/machine-learning-iris-dataset/#2
+[3] https://datascienceplus.com
 
 
 ## Biblography 
