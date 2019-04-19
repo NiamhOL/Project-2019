@@ -60,6 +60,8 @@ Import the iris.csv file using panda and examine the first few lines of data and
 
 ### Summary of basic statistics 
 
+The fist step in anlysisng the Iris Dataset is to take a closer look at the data. There are five columns in this dataset with the following variable names: Sepal Lenght, Sepal Width, Petal Length, Petal Width and Species. The first four variables are meaurements in centimeters and the fith vairiable is the name of the species. All the species were sampled from the same location the Gaspe Peninsula and measured bu the same person Edger Anderson. 
+
 ![Summary](https://github.com/NiamhOL/Project-2019/blob/master/Iris%20Species%20Overview.PNG)
 
 ![Overview](https://github.com/NiamhOL/Project-2019/blob/master/Iris%20data%20overview%202.PNG)
@@ -71,14 +73,24 @@ Import the iris.csv file using panda and examine the first few lines of data and
 
 ### Visualisation of statistics
 
-#### Relationships
-
-
-![Relationahip](https://github.com/NiamhOL/Project-2019/blob/master/Relationships%20between%20species.png)
 
 #### Boxplot
 
 ![Boxplot2](https://github.com/NiamhOL/Project-2019/blob/master/Plot%20showing%20data%20points%20on%20top%20of%20boxplot.png)
+
+The box plot shows the univariate form of each meaurement. 
+
+#### Relationships
+
+
+
+![Relationahip](https://github.com/NiamhOL/Project-2019/blob/master/Relationships%20between%20species.png)
+
+Scatterplots can be helpful to spot structured relationships between differnt variables. 
+
+
+
+
 
 #### Violin Plot
 
