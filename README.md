@@ -60,16 +60,42 @@ Import the iris.csv file using panda and examine the first few lines of data and
 
 ### Summary of basic statistics 
 
-![Summary} (
+![Summary](https://github.com/NiamhOL/Project-2019/blob/master/Iris%20Species%20Overview.PNG)
+
+![Overview](https://github.com/NiamhOL/Project-2019/blob/master/Iris%20data%20overview%202.PNG)
+
+![Boxplot](https://github.com/NiamhOL/Project-2019/blob/master/Boxplot%20by%20Species.png)
 
 
 
-
- 
 
 ### Visualisation of statistics
 
+#### Relationships
+
+
 ![Relationahip](https://github.com/NiamhOL/Project-2019/blob/master/Relationships%20between%20species.png)
+
+#### Boxplot
+
+![Boxplot2](https://github.com/NiamhOL/Project-2019/blob/master/Plot%20showing%20data%20points%20on%20top%20of%20boxplot.png)
+
+#### Violin Plot
+
+![violin](https://github.com/NiamhOL/Project-2019/blob/master/Violin%20plot%20Petal%20Length.png)
+
+#### Hexagonal Plot
+![Hex](https://github.com/NiamhOL/Project-2019/blob/master/Hexagonal%20Bin%20Plot%20Sepal%20Length%20Sepal%20Width.png)
+
+
+#### Correlations 
+
+![Correlation](https://github.com/NiamhOL/Project-2019/blob/master/Correlation%20matrix.png)
+
+
+
+
+
 ## Summary 
 
 ## References
