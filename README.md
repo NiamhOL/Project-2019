@@ -68,8 +68,7 @@ Import the iris.csv file using panda and examine the first few lines of data and
 
 ### Visualisation of statistics
 
-![iris]https://github.com/NiamhOL/Project-2019/blob/master/Relationships%20between%20species.png
-
+![Relationahip](https://github.com/NiamhOL/Project-2019/blob/master/Relationships%20between%20species.png)
 ## Summary 
 
 ## References
