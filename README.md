@@ -60,6 +60,7 @@ Import the iris.csv file using panda and examine the first few lines of data and
 
 ### Summary of basic statistics 
 
+![Summary} (
 
 
 
@@ -86,6 +87,15 @@ Machine Learning with Iris Dataset - https://kaggle.com/jchen2186/machine-learni
 Sir Ronald Alymer Fisher (Encyclopaedia Britannica) - https://www.britannica.com/biography/Ronald-Aylmer-Fisher
 
 Fisher, R.A. (1936), _The Use of Multiple MEasuerments in Taxonomic Problems_, Annals of Eugenics, pp.179-188.
+
+https://www.kaggle.com/xuhewen/iris-dataset-visualization-and-machine-learning
+
+https://www.kaggle.com/lalitharajesh/iris-dataset-exploratory-data-analysis.com
+
+https://www.kaggle.com/ekapylski/iris-dataset-visualization
+
+https://www.kaggle.com/abhishekkrg/python-iris-data-visualization-and-explanation
+
 
 ## Author - Niamh O'Leary
 
