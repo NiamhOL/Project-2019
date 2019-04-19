@@ -66,7 +66,8 @@ The fist step in anlysisng the Iris Dataset is to take a closer look at the data
 
 ![Overview](https://github.com/NiamhOL/Project-2019/blob/master/Iris%20data%20overview%202.PNG)
 
-![Boxplot](https://github.com/NiamhOL/Project-2019/blob/master/Boxplot%20by%20Species.png)
+![Basic](https://github.com/NiamhOL/Project-2019/blob/master/Iris%20dataset%20description.PNG)
+
 
 
 
@@ -77,6 +78,10 @@ The fist step in anlysisng the Iris Dataset is to take a closer look at the data
 #### Boxplot
 
 ![Boxplot2](https://github.com/NiamhOL/Project-2019/blob/master/Plot%20showing%20data%20points%20on%20top%20of%20boxplot.png)
+
+
+![Boxplot](https://github.com/NiamhOL/Project-2019/blob/master/Boxplot%20by%20Species.png)
+
 
 The box plot shows the univariate form of each meaurement. 
 
