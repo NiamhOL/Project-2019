@@ -100,7 +100,7 @@ There are many differnt ways of using Exploratory Data Analysis to analyse Fishe
 
 "The person widely attributed as being the father of visual methods is John W Tukey, the prominent statistician who pioneered Exploratory Data Analysis. He championed techniques for visually exploring data to unearth discoveries that are otherwise indiscernible in the original data form or potentially masked by the aggregating nature of some statistical treatments." [6]
 
-The best tool to identify the outliers is the boxplot. Through the box plots, we find the minimum, lower quartile (25th percentile), median (50th percentile), upper quartile (75th percentile), and a maximum of a contunues variable.A boxplot of the Iris Dataset can 
+The best tool to identify the outliers is the boxplot. Through the box plots, we find the minimum, lower quartile (25th percentile), median (50th percentile), upper quartile (75th percentile), and a maximum of a contunues variable. I initially genetared a  
 
 
 ![Boxplot2](https://github.com/NiamhOL/Project-2019/blob/master/Plot%20showing%20data%20points%20on%20top%20of%20boxplot.png)
