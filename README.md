@@ -111,6 +111,8 @@ The box plot shows the univariate form of each meaurement.
 
 ![Histogram](https://github.com/NiamhOL/Project-2019/blob/master/Histogram.png)
 
+![Histogram3](https://github.com/NiamhOL/Project-2019/blob/master/Histogram%203%20species.png)
+
 #### Scatterplots
 
 ![Scatter](https://github.com/NiamhOL/Project-2019/blob/master/graph%20assigning%20eash%20species%20a%20colour.png)
@@ -119,28 +121,23 @@ The box plot shows the univariate form of each meaurement.
 
 ![scatterhistogram](https://github.com/NiamhOL/Project-2019/blob/master/Bivariate%20scatterplot%20and%20univariate%20histogram.png)
 
-#### Andrews Curves
-
-#### Relationships
-
-
-
-
-
-![Relationahip](https://github.com/NiamhOL/Project-2019/blob/master/Relationships%20between%20species.png)
-
-Scatterplots can be helpful to spot structured relationships between differnt variables. 
-
-
-
-
-
 #### Violin Plot
 
 ![violin](https://github.com/NiamhOL/Project-2019/blob/master/Violin%20plot%20Petal%20Length.png)
 
 #### Hexagonal Plot
 ![Hex](https://github.com/NiamhOL/Project-2019/blob/master/Hexagonal%20Bin%20Plot%20Sepal%20Length%20Sepal%20Width.png)
+
+#### Andrews Curves
+
+#### Radviz Analysis
+
+#### Relationships
+
+
+![Relationahip](https://github.com/NiamhOL/Project-2019/blob/master/Relationships%20between%20species.png)
+
+Scatterplots can be helpful to spot structured relationships between differnt variables. 
 
 
 #### Correlations 
