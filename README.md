@@ -100,18 +100,20 @@ There are many differnt ways of using Exploratory Data Analysis to analyse Fishe
 
 "The person widely attributed as being the father of visual methods is John W Tukey, the prominent statistician who pioneered Exploratory Data Analysis. He championed techniques for visually exploring data to unearth discoveries that are otherwise indiscernible in the original data form or potentially masked by the aggregating nature of some statistical treatments." [6]
 
-The best tool to identify the outliers is the boxplot. Through the box plots, we find the minimum, lower quartile (25th percentile), median (50th percentile), upper quartile (75th percentile), and a maximum of a contunues variable. I initially genetared a  
-
+The best tool to identify the outliers is the boxplot. Through the box plots, we find the minimum, lower quartile (25th percentile), median (50th percentile), upper quartile (75th percentile), and a maximum of a contunues variable.
 
 ![Boxplot2](https://github.com/NiamhOL/Project-2019/blob/master/Plot%20showing%20data%20points%20on%20top%20of%20boxplot.png)
 
+I initially generated a simple Box Plot looking at PetalLenght for each species. TO gain a better understanding of the relevent data, I created an overlay of a Box Plot and Scatter Plot. This gave a better view of the outliers. 
+
+TO make it eaier for the reader to analyse all three species, I created a multi Box Plot view of all three species by Petal Length, Petal Width, Sepal Length and Sepal Width. These box plots show the univariate form of each meaurement. 
 
 ![Boxplot](https://github.com/NiamhOL/Project-2019/blob/master/Boxplot%20by%20Species.png)
 
+From these Box Plots it can be seen that Petal Length and Sepal Length have the greatest range and number of outliers, especially for "Iris-virginica".
 
-The box plot shows the univariate form of each meaurement. 
 
-#### Histogram
+#### Histograms
 
 ![Histogram](https://github.com/NiamhOL/Project-2019/blob/master/Histogram.png)
 
@@ -119,11 +121,17 @@ The box plot shows the univariate form of each meaurement.
 
 #### Scatterplots
 
+Scatterplots are useful for identifying trends in statistial data. Each observation in a Scatter Plot has two co-ordiantes (X & Y). The "point" of observation is where thse two co-ordiantes intersect. Relationshps between sets of data can be observed depending on the shape of the points. If the data points show an "up-hill" pattern from left to right, then there is a positive relationship between X & Y. Conversely if the pattern is "downhill" there is a positive relationship between X & Y. If the dats is scattered then there is no relationship between the X & Y.
+
 ![Scatter](https://github.com/NiamhOL/Project-2019/blob/master/graph%20assigning%20eash%20species%20a%20colour.png)
 
-#### Mixed plots
+This scatterplot Sepal Width V Sepal Lenght, shows a somewhat positive relationship for "Iris-setosa" but not as strong for the other two species.
+
 
 ![scatterhistogram](https://github.com/NiamhOL/Project-2019/blob/master/Bivariate%20scatterplot%20and%20univariate%20histogram.png)
+
+
+![Relationahip](https://github.com/NiamhOL/Project-2019/blob/master/Relationships%20between%20species.png)
 
 #### Violin Plot
 
@@ -142,12 +150,10 @@ The box plot shows the univariate form of each meaurement.
 
 ![Radviz](https://github.com/NiamhOL/Project-2019/blob/master/Radviz%20plot.png)
 
-#### Relationships
 
 
-![Relationahip](https://github.com/NiamhOL/Project-2019/blob/master/Relationships%20between%20species.png)
 
-Scatterplots can be helpful to spot structured relationships between differnt variables. 
+
 
 
 #### Correlations 
