@@ -91,7 +91,9 @@ Using the *describe* function in pandas generates an output table with a statist
 
 
 ### Visualisation of statistics
+*“Visualization may not be as precise as statistics, but it provides a unique view onto data that can make it much easier to discover interesting structures than numerical methods.”*[5] Statistics are used to describe and quantify dats. Visualisation is what enables the data to be seen. Alowing the reader see patterns, which assists in a greater understanding of the data.
 
+There are many differnt ways of using Exploratory Data Analysis to analyse Fisher's Iris Data Set. I have outlines a variety of diferent methods in the project, deccribing what can be seen from the graphs/plots and docementing the positives and negatives of using these different visualisations. Please see the file 
 
 
 #### Boxplot
@@ -160,6 +162,8 @@ Scatterplots can be helpful to spot structured relationships between differnt va
 [2] Hg, R. (2019) _Iris Dataset_ https://www,ritchieng.com/machine-learning-iris-dataset/#2
 [3] httpS://pandas.pydata.org
 [] https://datascienceplus.com
+[5] https://www.statisticsviews.com/details/feature/6314441/Visualising-Statistics-The-importance-of-seeing-not-just-describing-data.html
+
 
 
 ## Biblography 
