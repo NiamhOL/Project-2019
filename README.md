@@ -111,7 +111,13 @@ The box plot shows the univariate form of each meaurement.
 
 ![Histogram](https://github.com/NiamhOL/Project-2019/blob/master/Histogram.png)
 
+
+
+![scatterhistogram](https://github.com/NiamhOL/Project-2019/blob/master/Bivariate%20scatterplot%20and%20univariate%20histogram.png)
+
 #### Relationships
+
+
 
 
 
