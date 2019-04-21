@@ -75,9 +75,9 @@ The fist step in anlysisng the Iris Dataset is to take a closer look at the data
 
 ![Overview](https://github.com/NiamhOL/Project-2019/blob/master/Iris%20data%20overview%202.PNG)
 
-1[Overview1](https://github.com/NiamhOL/Project-2019/blob/master/Iris%20data%20overview%20start.PNG)
+![Overview1](https://github.com/NiamhOL/Project-2019/blob/master/Iris%20data%20overview%20start.PNG)
 
-
+By using head, tail 
 
 
 ![Basic](https://github.com/NiamhOL/Project-2019/blob/master/Iris%20dataset%20description.PNG)
