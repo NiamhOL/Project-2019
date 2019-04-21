@@ -85,18 +85,12 @@ By using head, tail and sample functions is it possible to get a general overiew
 
 #### ii. Summary of the dataset
 
-Using the *describe* function in pandas generates an output table with a statistical overview of the data. 
+Using the *describe* function in pandas generates an output table with a statistical overview of the data and gain an understanding of the mean, standard deviation, min, max and quartiles based on sepal-lenght, sepal-width, petal-lenght and petal-width.
 
-![Basic](https://github.com/NiamhOL/Project-2019/blob/master/Iris%20dataset%20description.PNG)
-
-
-
-
-
-
-
+![Basic](https://github.com/NiamhOL/Project-2019/blob/master/Iris%20data%20discrip..PNG)
 
 ### Visualisation of statistics
+
 
 
 #### Boxplot
