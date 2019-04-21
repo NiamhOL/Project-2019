@@ -134,6 +134,8 @@ The box plot shows the univariate form of each meaurement.
 
 #### Radviz Analysis
 
+![Radviz](https://github.com/NiamhOL/Project-2019/blob/master/Radviz%20plot.png)
+
 #### Relationships
 
 
