@@ -75,15 +75,17 @@ When analysing a dataset it is important to firstly gain an understanding of the
 
 ![Summary](https://github.com/NiamhOL/Project-2019/blob/master/Iris%20Species%20Overview.PNG)
 
-By using head, tail and sample functions is it possible to get a general overiew of the datset at different levels. This allows for a great understanding of the data anvailable for analysis. Using the*sample* function generates a random sample of the data within the database. From this one can see that 'Iris-setosa' appears to have a smaller petal compared to the other species. Therefore, even without detailed stastical analysis, there are already signs of compariability between 'Iris-virginica' and 'Iris-versicolor'.
-
 ![Overview](https://github.com/NiamhOL/Project-2019/blob/master/Iris%20data%20overview%202.PNG)
 
 ![Overview1](https://github.com/NiamhOL/Project-2019/blob/master/Iris%20data%20overview%20start.PNG)
 
 ![Sample](https://github.com/NiamhOL/Project-2019/blob/master/iris%20overview%20sample.PNG)
 
+By using head, tail and sample functions is it possible to get a general overiew of the datset at different levels. This allows for a great understanding of the data anvailable for analysis. Using the*sample* function generates a random sample of the data within the database. From this one can see that 'Iris-setosa' appears to have a smaller petal compared to the other species. Therefore, even without detailed stastical analysis, there are already signs of compariability between 'Iris-virginica' and 'Iris-versicolor'.
+
 #### ii. Summary of the dataset
+
+Using the *describe* function in pandas generates an output table with a statistical overview of the data. 
 
 ![Basic](https://github.com/NiamhOL/Project-2019/blob/master/Iris%20dataset%20description.PNG)
 
