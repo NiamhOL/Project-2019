@@ -32,14 +32,14 @@ The dataset consists of fifty samples from three species of iris (*Iris setosa, 
 ## Packages used in this project
 
 The following packages were used to run statistical analysis and draw grpahs for this project.
-- **_Python_** https://www.python.org/downloads/ - 
-- **_Anaconda_** https://www.anaconda.com/distribution/
-- **_iPython_** https://ipython.org/
-- **_Pandas_** https://pandas.pydata.org/
-- **_Scripy_** https://pypi.org/project/Scripy/
-- **_Numpy_** http://www.numpy.org/
-- **_Matplotlib_** https://matplotlib.org/
-- **_Seaborn_** https://seaborn.pydata.org/
+- **_Python_** https://www.python.org/downloads/ 
+- **_Anaconda_** https://www.anaconda.com/distribution/ - is the easiest way to perfrom Python data science machine learning on Linux, Windows and Mac OS. 
+- **_iPython_** https://ipython.org/ - it an interactive command-line terminal for Python.
+- **_Pandas_** https://pandas.pydata.org/ - pandas is an "open source, BSD-licensed library providing high-perfromance, easy-to-use data structures and data analysis tool."[3] 
+- **_Scripy_** https://pypi.org/project/Scripy/ - which allows the user to run system commands in the same shell through it's main tool *shell.Run().
+- **_Numpy_** http://www.numpy.org/ - is the fundamental package for scientific computing within Python.
+- **_Matplotlib_** https://matplotlib.org/ - is a 2D plotting library within Python within which the user can generate a wide variety of figures, including plots, histograms, scetterplots etc.
+- **_Seaborn_** https://seaborn.pydata.org/ - is a Python data visualisation library based on matplotlib. It provides a high level interface for drawing infromative statistical graphs. 
 
 ## Importing packages
 
@@ -64,7 +64,10 @@ The fist step in anlysisng the Iris Dataset is to take a closer look at the data
 
 ![Summary](https://github.com/NiamhOL/Project-2019/blob/master/Iris%20Species%20Overview.PNG)
 
+
 ![Overview](https://github.com/NiamhOL/Project-2019/blob/master/Iris%20data%20overview%202.PNG)
+
+
 
 ![Basic](https://github.com/NiamhOL/Project-2019/blob/master/Iris%20dataset%20description.PNG)
 
@@ -77,7 +80,7 @@ The fist step in anlysisng the Iris Dataset is to take a closer look at the data
 
 #### Boxplot
 
-The best tool to identify the outliers is the boxplot. "Through the box plots, we find the minimum, lower quartile (25th percentile), median (50th percentile), upper quartile (75th percentile), and a maximum of a contunues variable."[3] A boxplot of the Iris Dataset can 
+The best tool to identify the outliers is the boxplot. "Through the box plots, we find the minimum, lower quartile (25th percentile), median (50th percentile), upper quartile (75th percentile), and a maximum of a contunues variable."[] A boxplot of the Iris Dataset can 
 
 
 ![Boxplot2](https://github.com/NiamhOL/Project-2019/blob/master/Plot%20showing%20data%20points%20on%20top%20of%20boxplot.png)
@@ -126,7 +129,8 @@ Scatterplots can be helpful to spot structured relationships between differnt va
 
 [1] Ogubdowole, O.O (Oct 31, 2017), _Basic analysis of the Iris Data set using python_ https://medium.com/codebagng/basic-analysis-of-the-iris-data-set-using-python-2995618a6342
 [2] Hg, R. (2019) _Iris Dataset_ https://www,ritchieng.com/machine-learning-iris-dataset/#2
-[3] https://datascienceplus.com
+[3] httpS://pandas.pydata.org
+[] https://datascienceplus.com
 
 
 ## Biblography 
