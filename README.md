@@ -128,7 +128,9 @@ The box plot shows the univariate form of each meaurement.
 #### Hexagonal Plot
 ![Hex](https://github.com/NiamhOL/Project-2019/blob/master/Hexagonal%20Bin%20Plot%20Sepal%20Length%20Sepal%20Width.png)
 
-#### Andrews Curves
+#### Andrews Plot
+
+![Andrews](https://github.com/NiamhOL/Project-2019/blob/master/Andrews%20plot.png)
 
 #### Radviz Analysis
 
