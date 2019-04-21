@@ -102,6 +102,11 @@ There are many differnt ways of using Exploratory Data Analysis to analyse Fishe
 
 The best tool to identify the outliers is the boxplot. Through the box plots, we find the minimum, lower quartile (25th percentile), median (50th percentile), upper quartile (75th percentile), and a maximum of a contunues variable.
 
+To generate a Boxplot of Petal Length #
+
+sns.boxplot(x="Species" , y="PetalLenghtCm" , data=iris)
+plt.show()
+
 ![Boxplot2](https://github.com/NiamhOL/Project-2019/blob/master/Plot%20showing%20data%20points%20on%20top%20of%20boxplot.png)
 
 I initially generated a simple Box Plot looking at PetalLenght for each species. TO gain a better understanding of the relevent data, I created an overlay of a Box Plot and Scatter Plot. This gave a better view of the outliers. 
