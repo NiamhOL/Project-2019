@@ -1,9 +1,15 @@
 # Project-2019
 # Program and Scripting Project 2019 Fisher's Iris Data
 
+# Course: Higher Diploma in Data Analytics
+# Module: Programming and Scripting
+# Year & Semester: 2019 - 01
+# Student: Niamh O'Leary
+# ID: G00376339
+
 ## Introduction
 
-The Iris flower data is a multivariate dataset introduced by biologist and statistician Ronald Fisher in 1936 in his paper *The use of multiple measurements in taxonomic problems."* It is an excellent example of linear discrimniant. This is based on the concept of searching for a linear combination of variables that best seperates two classes.[1]
+The Iris flower data is a multivariate dataset introduced by biologist and statistician Ronald Fisher in 1936 in his paper *The use of multiple measurements in taxonomic problems."* It is an excellent example of linear discrimniant. This is based on the concept of searching for a linear combination of variables that best seperates two classes.[1] 
 
 ## About the Iris Dataset
 
@@ -22,6 +28,7 @@ The dataset consists of fifty samples from three species of iris (*Iris setosa, 
 
 ## Task
 
+The aim of this project is to give an overview of Fisher's Iris Dataset, by using Python programming lanuage for statistical analysis. 
 
 
 ## Getting started
@@ -65,7 +72,11 @@ The fist step in anlysisng the Iris Dataset is to take a closer look at the data
 ![Summary](https://github.com/NiamhOL/Project-2019/blob/master/Iris%20Species%20Overview.PNG)
 
 
+
 ![Overview](https://github.com/NiamhOL/Project-2019/blob/master/Iris%20data%20overview%202.PNG)
+
+1[Overview1](https://github.com/NiamhOL/Project-2019/blob/master/Iris%20data%20overview%20start.PNG)
+
 
 
 
