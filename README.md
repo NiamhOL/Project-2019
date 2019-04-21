@@ -85,7 +85,7 @@ By using head, tail and sample functions is it possible to get a general overiew
 
 #### ii. Summary of the dataset
 
-Using the *describe* function in pandas generates an output table with a statistical overview of the data and gain an understanding of the mean, standard deviation, min, max and quartiles based on sepal-lenght, sepal-width, petal-lenght and petal-width.
+Using the *describe* function in pandas generates an output table with a statistical overview of the data and gain an understanding of the mean, standard deviation, min, max and quartiles based on sepal-length, sepal-width, petal-length and petal-width. By analysing the mean, max and standard deviation a general overview of the four meaurements can be obtained. The standard deviation is used to tell hoe the numbers of a group are spread out from the average (the mean). Petal-length has the greatest standard deviation, indicating that the samples for this data point are most widely distributed. This can be 
 
 ![Basic](https://github.com/NiamhOL/Project-2019/blob/master/Iris%20data%20discrip..PNG)
 
