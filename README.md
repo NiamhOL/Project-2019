@@ -160,7 +160,11 @@ A Radviz plot is another multivariate data visualisation. "In Radviz, each dimen
 
 #### Correlations 
 
+Corelation in statistcs is important as it repersents how stongly pairs of vaiables are realted. Often correalation is generted by stattitical packages such as SPSS. R etc. "Like all statistical techniques, correlation is only appropriate for certain kinds of data. Correlation works for quantifiable data in which numbers are meaningful, usually quantities of some sort. It cannot be used for purely categorical data, such as gender, brands purchased, or favorite color.2 [7] I wanted to generate a visualisation of the correlations(if any) with the Iris Data Set. Therefore I used the *heatmap* funtion to see which parameters best correlate with each other. According to the correlation matrix PetalLengthCm and PetalWidthCm have positive correlation. 
+
 ![Correlation](https://github.com/NiamhOL/Project-2019/blob/master/Correlation%20matrix.png)
+
+
 
 
 
@@ -176,7 +180,7 @@ A Radviz plot is another multivariate data visualisation. "In Radviz, each dimen
 [] https://datascienceplus.com
 [5],[6] https://www.statisticsviews.com/details/feature/6314441/Visualising-Statistics-The-importance-of-seeing-not-just-describing-data.html
 [6] https://cran.r-project.org/web/packages/Radviz/vignettes/single_cell_projections.html
-
+[7] https://www.surveysystem.com/correlation.htm
 
 ## Biblography 
 
