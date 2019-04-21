@@ -147,18 +147,15 @@ To validate this plot I generated a Hexagonal and Histogram plot.
 
 #### Andrews Plot
 
-
+Andrews Plot is a mutlivariate analysis. From the Andrews Plot of the Iris Data Set it is clear that one type of Iris is distinct from the other two but differentiating between the other two is not as easy. 
 
 ![Andrews](https://github.com/NiamhOL/Project-2019/blob/master/Andrews%20plot.png)
 
 #### Radviz Analysis
 
+A Radviz plot is another multivariate data visualisation. "In Radviz, each dimension in the dataset is represented by a dimensional anchor, and each dimensional anchor is distributed evenly on a unit circle. Each line in the data set corresponds to a point in the projection, that is linked to every dimensional anchor by a spring. Each spring’s stiffness corresponds to the value for that particular thing in that particular dimension. The position of the point is defined as the point in the 2D space where the spring’s tension is minimum."[6]
+
 ![Radviz](https://github.com/NiamhOL/Project-2019/blob/master/Radviz%20plot.png)
-
-
-
-
-
 
 
 #### Correlations 
@@ -178,7 +175,7 @@ To validate this plot I generated a Hexagonal and Histogram plot.
 [3] httpS://pandas.pydata.org
 [] https://datascienceplus.com
 [5],[6] https://www.statisticsviews.com/details/feature/6314441/Visualising-Statistics-The-importance-of-seeing-not-just-describing-data.html
-
+[6] https://cran.r-project.org/web/packages/Radviz/vignettes/single_cell_projections.html
 
 
 ## Biblography 
@@ -199,6 +196,7 @@ https://www.kaggle.com/ekapylski/iris-dataset-visualization
 
 https://www.kaggle.com/abhishekkrg/python-iris-data-visualization-and-explanation
 
+http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.608.6250&rep=rep1&type=pdf
 
 ## Author - Niamh O'Leary
 
