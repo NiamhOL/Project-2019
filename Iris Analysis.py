@@ -95,22 +95,22 @@ iris.drop("Id", axis=1) .boxplot(by="Species" , figsize=(10, 10))
     ...:     return custom_cmap
     ...:
 
-In [41]: from pandas.tools.plotting import andrews_curves
+from pandas.tools.plotting import andrews_curves
 
-In [42]: andrews_curves(iris.drop("Id" , axis=1), "Species" , colormap=get_red_blue_g
+andrews_curves(iris.drop("Id" , axis=1), "Species" , colormap=get_red_blue_g
     ...: reen_cmap())
 
 # Generating a Radviz plot #
 
-    In [44]: from pandas.tools.plotting import radviz
+ from pandas.tools.plotting import radviz
 
 # Histograms #
 
  iris_long = pd.melt(iris, "Species" , var_name="measurement")
 
-In [60]: g = sns.FacetGrid(iris_long, hue="Species" , col="measurement" , col_wrap=2, sharex=False)
+ g = sns.FacetGrid(iris_long, hue="Species" , col="measurement" , col_wrap=2, sharex=False)
 
-In [61]: g.map(plt.hist, "value", alpha=.4)
-Out[61]: <seaborn.axisgrid.FacetGrid at 0x1fc0de7dc18>
+ g.map(plt.hist, "value", alpha=.4)
+ <seaborn.axisgrid.FacetGrid at 0x1fc0de7dc18>
 
-In [62]: plt.show()
+ plt.show()
