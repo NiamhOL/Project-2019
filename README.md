@@ -205,6 +205,8 @@ https://www.kaggle.com/abhishekkrg/python-iris-data-visualization-and-explanatio
 
 http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.608.6250&rep=rep1&type=pdf
 
+http://mclguide.readthedocs.io/en/latest/sklearn/moreex1.html
+
 ## Author - Niamh O'Leary
 
 ## Licence 
