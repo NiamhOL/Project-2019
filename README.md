@@ -120,6 +120,8 @@ From these Box Plots it can be seen that Petal Length and Sepal Length have the 
 
 ![Histogram3](https://github.com/NiamhOL/Project-2019/blob/master/Histogram%203%20species.png)
 
+![Histogram3](https://github.com/NiamhOL/Project-2019/blob/master/Histogram%20with%20three%20species.png)
+
 #### Scatterplots
 
 Scatterplots are useful for identifying trends in statistial data. Each observation in a Scatter Plot has two co-ordiantes (X & Y). The "point" of observation is where thse two co-ordiantes intersect. Relationshps between sets of data can be observed depending on the shape of the points. If the data points show an "up-hill" pattern from left to right, then there is a positive relationship between X & Y. Conversely if the pattern is "downhill" there is a positive relationship between X & Y. If the dats is scattered then there is no relationship between the X & Y.
