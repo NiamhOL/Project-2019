@@ -45,9 +45,18 @@ plt.show()
 sns.joint(x="SepalLenghtCm" , y="SepalWidthCm" , data=iris , size=5)
 plt.show()
 
-# To generate a Boxplot of Petal Length #
+# To generate a Boxplot  #
 
-sns.boxplot(x="Species" , y="PetalLenghtCm" , data=iris)
+sns.boxplot(x="Species" , y="PetalLengthCm" , data=iris)
+plt.show()
+
+sns.boxplot(x="Species" , y="SepalLengthCm" , data=iris)
+plt.show()
+
+sns.boxplot(x="Species" , y="PetalWidthCm" , data=iris)
+plt.show()
+
+sns.boxplot(x="Species" , y="SepalWidthCm" , data=iris)
 plt.show()
 
 # To generate a striplot and add datapoints on top of the Boxplot #
@@ -77,7 +86,7 @@ sns.jointplot(x="SepalLengthCm", y="SepalWidthCm", data=iris, size=10, ratio=10,
 
 # Boxplot by speciies #
 
-iris.drop("Id", axis=1) .boxplot(by="Species" , figsize=(10, 10))
+ sns.boxplot(by="Species" , figsize=(10, 10))
 
 # Correlation Matrix #              https://www.kaggle.com/lalitharajesh/iris-dataset-exploratory-data-analysis.com
 
@@ -92,17 +101,16 @@ iris.drop("Id", axis=1) .boxplot(by="Species" , figsize=(10, 10))
  def get_red_blue_green_cmap():
     ...:     custom_rgb = ["#4c72B0" , "#55A868" , "#C44E52"];
     ...:     custom_cmap = mpl.colors.ListedColormap(custom_rgb)
-    ...:     return custom_cmap
+    ...:     return cuythonstom_cmap
     ...:
 
 from pandas.tools.plotting import andrews_curves
 
-andrews_curves(iris.drop("Id" , axis=1), "Species" , colormap=get_red_blue_g
+ andrews_curves(iris.drop("Id" , axis=1), "Species" , colormap=get_red_blue_g
     ...: reen_cmap())
 
 # Generating a Radviz plot #
-
- from pandas.tools.plotting import radviz
+   from pandas.tools.plotting import radviz
 
 # Histograms #
 
@@ -114,3 +122,17 @@ andrews_curves(iris.drop("Id" , axis=1), "Species" , colormap=get_red_blue_g
  <seaborn.axisgrid.FacetGrid at 0x1fc0de7dc18>
 
  plt.show()
+
+ # Histogram of all three species with colour change #
+
+ for feature in range(iris.data.shape[1]):
+    ...:     plt.subplot(2, 2, feature+1)
+    ...:     for label, color in zip(range(len(iris.target_names)), colors):
+    ...:         plt.hist(iris.data[iris.target==label, feature],
+    ...:         label=iris.target_names[label],
+        ...:         color=color)
+    ...:     plt.xlabel(iris.feature_names[feature])
+    ...:     plt.legend()
+
+
+    
