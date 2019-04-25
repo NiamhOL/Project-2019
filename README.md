@@ -144,6 +144,8 @@ A Hiatogram is used to plot the univariate distribution of observation.
 
 ![Histogram3](https://github.com/NiamhOL/Project-2019/blob/master/Histogram%20with%20three%20species.png)
 
+#### Facet Plot
+
 
 #### Scatterplots
 
@@ -218,8 +220,11 @@ Corelation in statistcs is important as it repersents how stongly pairs of vaiab
 ## Overview of different graphing libaries.
 
 Python offers multiple graphing libaries that all mcome with lots of different features.
+
 **Pandas**: is an easy to use interface that allows for data to be easily analysed.
+
 **Matplotlib**: provides the useer with a lot of freedom. The graphs, while functional, are low level when comapred to other graphing libaries. For example, I used Matplotlib to generate a histogram. While the graph did demonstrate the data, it was not "as polished" as it could have been.
+
 **Seaborn**: This is a high-level interface with excellent default styles. The graphing capabilities where of a very high standard. 
 
 ## Summary 
