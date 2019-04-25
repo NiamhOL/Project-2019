@@ -25,10 +25,12 @@ The dataset consists of fifty samples from three species of iris (*Iris setosa, 
 
 ![iris](https://raw.githubusercontent.com/ritchieng/machine-learning-dataschool/master/images/03_iris.png)
 
+The dataset became a test case for many statistical classification techniques in machine learning.
 
 ## Task
 
 The aim of this project is to give an overview of Fisher's Iris Dataset, by using Python programming lanuage for statistical analysis. 
+In this project I have included the more interesting analyses of the data. 
 
 
 ## Getting started
@@ -64,7 +66,7 @@ Import the iris.csv file using panda and examine the first few lines of data and
 
 ## Using Python for statistical analysis of the dataset
 
-All the Python code used to analyse the Iris Dataset is available in the Github respioratory associated with this project.
+All the Python code used to analyse the Iris Dataset is available in the Github respioratory associated with this project. 
 A vairiety of plots created in Pandas VIsualisation, Matplotlib and Seaborn were created to analyse the dataset. I used differnt graphing libaries as a way to gain a greater understanding as to the postivies and negatives of using these different libaries.
 
 [Lets go to Python code](
@@ -130,7 +132,7 @@ From these Box Plots it can be seen that Petal Length and Sepal Length have the 
 
 #### Histograms
 
-A Hiatogram is used to plot the univariate distribution of observation. 
+A Histogram is used to plot the univariate distribution of observation. 
 
     for feature in range(iris.data.shape[1]):
     ...:     plt.subplot(2, 2, feature+1)
