@@ -123,6 +123,10 @@ from pandas.tools.plotting import andrews_curves
 
  plt.show()
 
+ # Histogram with addition plot #
+
+ sns.distplot(a=iris['PetalWidthCm'], bins=40, color='m')
+
  # Histogram of all three species with colour change #
 
  for feature in range(iris.data.shape[1]):
@@ -134,5 +138,6 @@ from pandas.tools.plotting import andrews_curves
     ...:     plt.xlabel(iris.feature_names[feature])
     ...:     plt.legend()
 
+# Facet Plots #
 
-    
+iris = iris.map(sns.kdeplot, 'SepalLengthCm')
