@@ -93,7 +93,7 @@ Using the *describe* function in pandas generates an output table with a statist
 
 ![Basic](https://github.com/NiamhOL/Project-2019/blob/master/Iris%20data%20discrip..PNG)
 
-From reviewin this data is can be seen that the petal lenght and letal width of the *Iris Setosa* is different from the other two. This is an interesting observation and it is worth keeping a note of this when looking at the visualisation graphs. 
+From reviewing this data is can be seen that the petal length and letal width of the *Iris Setosa* is different from the other two. This is an interesting observation and it is worth keeping a note of this when looking at the visualisation graphs. 
 
 ### Visualisation of statistics
 *“Visualization may not be as precise as statistics, but it provides a unique view onto data that can make it much easier to discover interesting structures than numerical methods.”*[5] Statistics are used to describe and quantify dats. Visualisation is what enables the data to be seen. Alowing the reader see patterns, which assists in a greater understanding of the data.
@@ -150,18 +150,16 @@ A Hiatogram is used to plot the univariate distribution of observation.
 
 "Faceting is the act of breaking data variables up across multiple subplots and combining those subplots into a single figure." [8]
 
+The sepal lenght of *Iris Setosa* is the longest. This would correlate with previous observations from the mean of the different species. 
+
     ris = iris.map(sns.kdeplot, 'SepalLengthCm')
     
 ![Facet](https://github.com/NiamhOL/Project-2019/blob/master/Facet%20plot%20sepal%20lenght.png)
 
 
-
-
 #### Scatterplots
 
 Scatterplots are useful for identifying trends in statistial data. Each observation in a Scatter Plot has two co-ordiantes (X & Y). The "point" of observation is where thse two co-ordiantes intersect. Relationshps between sets of data can be observed depending on the shape of the points. If the data points show an "up-hill" pattern from left to right, then there is a positive relationship between X & Y. Conversely if the pattern is "downhill" there is a positive relationship between X & Y. If the dats is scattered then there is no relationship between the X & Y.
-
-
 
 ![Scatter](https://github.com/NiamhOL/Project-2019/blob/master/graph%20assigning%20eash%20species%20a%20colour.png)
 
@@ -173,7 +171,10 @@ By creating a multigraph resperesntation of the data is is easy to see the diffe
 
     sns.pairplot(iris.drop("Id", axis=1), hue="Species", height=3))
 
+By grouping a number of plots together is it easier for the reader to get an overview of the realtionships, if any between the different data points. FRom a quick glance of the graphas, it can be easily seen that the distribution of data for *Iris Setosa* is differnt from *Iris Verisolour* and *Iris Verginica*. This again correlates with previous observations regarding *Iris Setosa*
+
 #### Violin Plot
+
 
     sns.violinplot(x="Species" , y="PetalLengthCm" , data=iris, size=7)
    
