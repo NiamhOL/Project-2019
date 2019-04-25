@@ -62,8 +62,11 @@ from scripy import stats
 Import the iris.csv file using panda and examine the first few lines of data and the headings. 
 
 
-
 ## Using Python for statistical analysis of the dataset
+
+All the Python code used to analyse the Iris Dataset is available in the Github respioratory associated with this project.
+
+[Lets go to Python code](
 
 ### Summary of basic statistics 
 
