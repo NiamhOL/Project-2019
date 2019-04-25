@@ -1,11 +1,11 @@
 # Project-2019
 # Program and Scripting Project 2019 Fisher's Iris Data
 
-# Course: Higher Diploma in Data Analytics
-# Module: Programming and Scripting
-# Year & Semester: 2019 - 01
-# Student: Niamh O'Leary
-# ID: G00376339
+## Course: Higher Diploma in Data Analytics
+## Module: Programming and Scripting
+## Year & Semester: 2019 - 01
+## Student: Niamh O'Leary
+## ID: G00376339
 
 ## Introduction
 
@@ -116,9 +116,7 @@ From these Box Plots it can be seen that Petal Length and Sepal Length have the 
 
 #### Histograms
 
-![Histogram](https://github.com/NiamhOL/Project-2019/blob/master/Histogram.png)
 
-![Histogram3](https://github.com/NiamhOL/Project-2019/blob/master/Histogram%203%20species.png)
 
 ![Histogram3](https://github.com/NiamhOL/Project-2019/blob/master/Histogram%20with%20three%20species.png)
 
