@@ -132,7 +132,9 @@ From these Box Plots it can be seen that Petal Length and Sepal Length have the 
 
 #### Histograms
 
-A Histogram is used to plot the univariate distribution of observation. 
+A Histogram is a plot that shows the underlying frequency distribution of a set of continous data. It is a excellent way to show the normal distribution, outliers, skewness etc. I created the histogram to anaylse the Iris data in Matplotlib using the following code.
+
+
 
     for feature in range(iris.data.shape[1]):
     ...:     plt.subplot(2, 2, feature+1)
@@ -145,6 +147,8 @@ A Histogram is used to plot the univariate distribution of observation.
 
 
 ![Histogram3](https://github.com/NiamhOL/Project-2019/blob/master/Histogram%20with%20three%20species.png)
+
+The feature *Petal Width* can distinguish the targets better than the other features.
 
 ![Dis](https://github.com/NiamhOL/Project-2019/blob/master/Disttribution.png)
 
