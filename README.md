@@ -148,7 +148,7 @@ A Histogram is a plot that shows the underlying frequency distribution of a set 
 
 ![Histogram3](https://github.com/NiamhOL/Project-2019/blob/master/Histogram%20with%20three%20species.png)
 
-The feature *Petal Width* can distinguish the targets better than the other features.
+The feature *Petal Width* can distinguish the targets better than the other features. Therefore, I created a distribution curve for *Petal Width* to take a closer look at the distribution of this data point.
 
 ![Dis](https://github.com/NiamhOL/Project-2019/blob/master/Disttribution.png)
 
