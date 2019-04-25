@@ -144,6 +144,8 @@ A Hiatogram is used to plot the univariate distribution of observation.
 
 ![Histogram3](https://github.com/NiamhOL/Project-2019/blob/master/Histogram%20with%20three%20species.png)
 
+![Dis](https://github.com/NiamhOL/Project-2019/blob/master/Disttribution.png)
+
 #### Facet Plot
 
 
