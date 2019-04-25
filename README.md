@@ -65,6 +65,7 @@ Import the iris.csv file using panda and examine the first few lines of data and
 ## Using Python for statistical analysis of the dataset
 
 All the Python code used to analyse the Iris Dataset is available in the Github respioratory associated with this project.
+A vairiety of plots created in Pandas VIsualisation, Matplotlib and Seaborn were created to analyse the dataset. I used differnt graphing libaries as a way to gain a greater understanding as to the postivies and negatives of using these different libaries.
 
 [Lets go to Python code](
 
@@ -214,13 +215,16 @@ Corelation in statistcs is important as it repersents how stongly pairs of vaiab
     
 ![Correlation](https://github.com/NiamhOL/Project-2019/blob/master/Correlation%20matrix.png)
 
+## Overview of different graphing libaries.
 
-
-
-
-
+Python offers multiple graphing libaries that all mcome with lots of different features.
+**Pandas**: is an easy to use interface that allows for data to be easily analysed.
+**Matplotlib**: provides the useer with a lot of freedom. The graphs, while functional, are low level when comapred to other graphing libaries. For example, I used Matplotlib to generate a histogram. While the graph did demonstrate the data, it was not "as polished" as it could have been.
+**Seaborn**: This is a high-level interface with excellent default styles. The graphing capabilities where of a very high standard. 
 
 ## Summary 
+
+
 
 ## References
 
