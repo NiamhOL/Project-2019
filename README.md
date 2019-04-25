@@ -158,7 +158,7 @@ The feature *Petal Width* can distinguish the targets better than the other feat
 
 "Faceting is the act of breaking data variables up across multiple subplots and combining those subplots into a single figure." [8]
 
-The sepal lenght of *Iris Setosa* is the longest. This would correlate with previous observations from the mean of the different species. 
+The sepal lenght of *Iris Setosa* is the longest. This would correlate with previous observations from the mean of the different species. The distribution of the data does not follow the expected bell curve shape of normal distribution but rather has two areas of interest.
 
     ris = iris.map(sns.kdeplot, 'SepalLengthCm')
     
