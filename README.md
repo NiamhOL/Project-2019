@@ -100,7 +100,10 @@ There are many differnt ways of using Exploratory Data Analysis to analyse Fishe
 
 "The person widely attributed as being the father of visual methods is John W Tukey, the prominent statistician who pioneered Exploratory Data Analysis. He championed techniques for visually exploring data to unearth discoveries that are otherwise indiscernible in the original data form or potentially masked by the aggregating nature of some statistical treatments." [6]
 
-The best tool to identify the outliers is the boxplot. Through the box plots, we find the minimum, lower quartile (25th percentile), median (50th percentile), upper quartile (75th percentile), and a maximum of a contunues variable.
+The best tool to identify the outliers is the boxplot. Through the box plots, we find the minimum, lower quartile (25th percentile), median (50th percentile), upper quartile (75th percentile), and a maximum of a contunues variable. 
+
+The following code is an exmaple of the code I used to generate a boxplot. 
+    
 
 
 ![Boxplot2](https://github.com/NiamhOL/Project-2019/blob/master/Plot%20showing%20data%20points%20on%20top%20of%20boxplot.png)
@@ -116,9 +119,10 @@ From these Box Plots it can be seen that Petal Length and Sepal Length have the 
 
 #### Histograms
 
-
+A Hiatogram is used to plot the univariate distribution of observation.
 
 ![Histogram3](https://github.com/NiamhOL/Project-2019/blob/master/Histogram%20with%20three%20species.png)
+
 
 #### Scatterplots
 
@@ -130,7 +134,7 @@ This scatterplot Sepal Width v Sepal Lenght, shows a somewhat positive relations
 
 ![Relationahip](https://github.com/NiamhOL/Project-2019/blob/master/Relationships%20between%20species.png)
 
-By creating a multigraph resperesntation of the data is is easy to see the differing relationships between the different data points. 
+By creating a multigraph resperesntation of the data is is easy to see the differing relationships between different data points. To plot multiple pairwise bivariate distributions for the Iris dataset, I used the pairplot() funtion in Seaborn.
 
 #### Violin Plot
 
