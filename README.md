@@ -148,6 +148,14 @@ A Hiatogram is used to plot the univariate distribution of observation.
 
 #### Facet Plot
 
+"Faceting is the act of breaking data variables up across multiple subplots and combining those subplots into a single figure." [8]
+
+    ris = iris.map(sns.kdeplot, 'SepalLengthCm')
+    
+![Facet](https://github.com/NiamhOL/Project-2019/blob/master/Facet%20plot%20sepal%20lenght.png)
+
+
+
 
 #### Scatterplots
 
@@ -235,13 +243,21 @@ Python offers multiple graphing libaries that all mcome with lots of different f
 
 ## References
 
-[1] Ogubdowole, O.O (Oct 31, 2017), _Basic analysis of the Iris Data set using python_ https://medium.com/codebagng/basic-analysis-of-the-iris-data-set-using-python-2995618a6342
+[1] Ogubdowole, O.O (Oct 31, 2017), _Basic analysis of the Iris Data set using python_ https://medium.com/codebagng/basic-analysis-of-the-iris-data-set-using-python-2995618a6342]
+
 [2] Hg, R. (2019) _Iris Dataset_ https://www,ritchieng.com/machine-learning-iris-dataset/#2
+
 [3] httpS://pandas.pydata.org
+
 [] https://datascienceplus.com
+
 [5],[6] https://www.statisticsviews.com/details/feature/6314441/Visualising-Statistics-The-importance-of-seeing-not-just-describing-data.html
+
 [6] https://cran.r-project.org/web/packages/Radviz/vignettes/single_cell_projections.html
+
 [7] https://www.surveysystem.com/correlation.htm
+
+[8]https://towaardsdatascience.com/introduction-to-data-visualization-in-oython-89a54c97fbed
 
 ## Biblography 
 
