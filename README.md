@@ -148,7 +148,7 @@ A Histogram is a plot that shows the underlying frequency distribution of a set 
 
 ![Histogram3](https://github.com/NiamhOL/Project-2019/blob/master/Histogram%20with%20three%20species.png)
 
-The feature *Petal Width* can distinguish the targets better than the other features. Therefore, I created a distribution curve for *Petal Width* to take a closer look at the distribution of this data point.
+The feature *Petal Width* can distinguish the targets better than the other features. Therefore, I created a distribution curve for *Petal Width* to take a closer look at the distribution of this data point. The distribution of the data does not follow the expected bell curve shape of normal distribution but rather has two areas of interest.
 
     
 
@@ -158,7 +158,7 @@ The feature *Petal Width* can distinguish the targets better than the other feat
 
 "Faceting is the act of breaking data variables up across multiple subplots and combining those subplots into a single figure." [8]
 
-The sepal lenght of *Iris Setosa* is the longest. This would correlate with previous observations from the mean of the different species. The distribution of the data does not follow the expected bell curve shape of normal distribution but rather has two areas of interest.
+The sepal lenght of *Iris Setosa* is the longest. This would correlate with previous observations from the mean of the different species. 
 
     ris = iris.map(sns.kdeplot, 'SepalLengthCm')
     
@@ -268,7 +268,24 @@ Python offers multiple graphing libaries that all mcome with lots of different f
 
 [8]https://towaardsdatascience.com/introduction-to-data-visualization-in-oython-89a54c97fbed
 
+
 ## Biblography 
+
+Ogubdowole, O.O (Oct 31, 2017), _Basic analysis of the Iris Data set using python_ https://medium.com/codebagng/basic-analysis-of-the-iris-data-set-using-python-2995618a6342]
+
+Hg, R. (2019) _Iris Dataset_ https://www,ritchieng.com/machine-learning-iris-dataset/#2
+
+httpS://pandas.pydata.org
+
+https://datascienceplus.com
+
+https://www.statisticsviews.com/details/feature/6314441/Visualising-Statistics-The-importance-of-seeing-not-just-describing-data.html
+
+https://cran.r-project.org/web/packages/Radviz/vignettes/single_cell_projections.html
+
+https://www.surveysystem.com/correlation.htm
+
+https://towaardsdatascience.com/introduction-to-data-visualization-in-oython-89a54c97fbed
 
 10 minutes to pandas - https://pandas.pydata.org/pandas-docs/stable/getting_started/10min.html
 
@@ -289,6 +306,7 @@ https://www.kaggle.com/abhishekkrg/python-iris-data-visualization-and-explanatio
 http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.608.6250&rep=rep1&type=pdf
 
 http://mclguide.readthedocs.io/en/latest/sklearn/moreex1.html
+
 
 ## Author - Niamh O'Leary
 
