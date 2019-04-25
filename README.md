@@ -311,3 +311,6 @@ http://mclguide.readthedocs.io/en/latest/sklearn/moreex1.html
 ## Author - Niamh O'Leary
 
 ## Licence 
+
+## **Deployment**
+Python 3.7.2 is the latest version available for download. For more information please go to https://www.python.org/
