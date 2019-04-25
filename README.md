@@ -92,6 +92,7 @@ Using the *describe* function in pandas generates an output table with a statist
 
 ![Basic](https://github.com/NiamhOL/Project-2019/blob/master/Iris%20data%20discrip..PNG)
 
+From reviewin this data is can be seen that the petal lenght and letal width of the *Iris Setosa* is different from the other two. This is an interesting observation and it is worth keeping a note of this when looking at the visualisation graphs. 
 
 ### Visualisation of statistics
 *“Visualization may not be as precise as statistics, but it provides a unique view onto data that can make it much easier to discover interesting structures than numerical methods.”*[5] Statistics are used to describe and quantify dats. Visualisation is what enables the data to be seen. Alowing the reader see patterns, which assists in a greater understanding of the data.
@@ -117,7 +118,7 @@ The following code is an exmaple of the code I used to generate a boxplot.
 
 I initially generated a simple Box Plot looking at PetalLenght for each species. TO gain a better understanding of the relevent data, I created an overlay of a Box Plot and Scatter Plot. This gave a better view of the outliers. 
 
-TO make it eaier for the reader to analyse all three species, I created a multi Box Plot view of all three species by Petal Length, Petal Width, Sepal Length and Sepal Width. These box plots show the univariate form of each meaurement. 
+To make it eaier for the reader to analyse all three species, I created a multi Box Plot view of all three species by Petal Length, Petal Width, Sepal Length and Sepal Width. These box plots show the univariate form of each meaurement. 
 
     sns.boxplot(by="Species" , figsize=(10, 10))
 
@@ -128,7 +129,7 @@ From these Box Plots it can be seen that Petal Length and Sepal Length have the 
 
 #### Histograms
 
-A Hiatogram is used to plot the univariate distribution of observation.
+A Hiatogram is used to plot the univariate distribution of observation. 
 
     for feature in range(iris.data.shape[1]):
     ...:     plt.subplot(2, 2, feature+1)
