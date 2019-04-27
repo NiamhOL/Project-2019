@@ -30,7 +30,7 @@ The dataset became a test case for many statistical classification techniques in
 ## Task
 
 The aim of this project is to give an overview of Fisher's Iris Dataset, by using Python programming language for statistical analysis. 
-In this project I have included the more interesting analyses of the data. 
+In this project I have included the more interesting analysis of the data. 
 
 
 ## Getting started
