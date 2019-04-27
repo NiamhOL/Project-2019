@@ -31,6 +31,14 @@ print(iris.tail())
 
 iris.plot(kind="scatter" , x="SepalLenghtCm" , y="SepalWidthCm")
 
+# Scatterplot in Seaborn #
+
+iris = sns.load_dataset('iris')
+sns.lmplot( x="petal_length" , y="petal_width" , data=iris, fit_reg=False, hue='species' , legend=False)
+plt.legend(loc='lower right')
+sns.plt.show()
+
+
 # To display the plot #
 
 plt.show()
@@ -71,6 +79,12 @@ In [13]: plt.show()
 
 sns.violinplot(x="Species" , y="PetalLengthCm" , data=iris, size=7)
 
+sns.violinplot(x="Species" , y="PetalWidthCm" , data=iris, size=7)
+
+sns.violinplot(x="Species", y="SepalLengthCm" , data=iris, size=7)
+
+sns.violinplot(x="Species", y="SepalWidthCm" , data=iris, size=7)
+
 # Using pairplot to analyse the relationship between species for all characteristic combinations #
 
 
@@ -83,6 +97,8 @@ sns.pairplot(iris.drop("Id", axis=1, hue="Species", size=3, diag_kind="kde")
 # To generate a Hexagonal bin plot #
 
 sns.jointplot(x="SepalLengthCm", y="SepalWidthCm", data=iris, size=10, ratio=10, kind='hex' , color='purple')
+
+sns.jointplot(x="PetalLengthCm", y="PetalWidthCm", data=iris, size=10, ratio=10, kind='hex' , color='orange')
 
 # Boxplot by speciies #
 
