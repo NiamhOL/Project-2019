@@ -1,5 +1,5 @@
-# Project-2019
-# Program and Scripting Project 2019 Fisher's Iris Data
+
+# *Program and Scripting Project 2019 Fisher's Iris Data*
 
 ## Course: Higher Diploma in Data Analytics
 ## Module: Programming and Scripting
@@ -281,9 +281,10 @@ Python offers multiple graphing libaries that all mcome with lots of different f
 
 **Seaborn**: This is a high-level interface with excellent default styles. The graphing capabilities where of a very high standard. 
 
-## Summary 
 
+## Conclusion
 
+In this project I attempted to analyse the Iris Data Set using Python and a variety of packages for data analysis. I focused on Pandas, Matplotlib and Seaborn. There is a huge amount of information available regarding which analytcal techiques and statiical tests are best. As an integral part of this project, I had to undertake very detalied biblographical review of the avaiable information. From this research is can be clearly seen that Fisher's Iris Data Set is one of the best know and widely used data sets in the Data Science field. 
 
 ## References
 
@@ -346,9 +347,8 @@ http://mclguide.readthedocs.io/en/latest/sklearn/moreex1.html
 
 https://www.datacamp.com/community/tutorials/facets-ggplot-
 
-## Author - Niamh O'Leary
 
-## Licence 
+## Author - Niamh O'Leary
 
 ## **Deployment**
 Python 3.7.2 is the latest version available for download. For more information please go to https://www.python.org/
