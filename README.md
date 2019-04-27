@@ -148,18 +148,15 @@ The variation in sepal width between the species is not a great. Howver *Iris Se
 
 The range of petal width amonngst the different species is not great. *Iris Setosa* has a very small range in sizes when compared to the two other species. 
 
-#### iv *Petal Length 
-
-To gain a better understanding of the relevent data, I created an overlay of a Box Plot and Scatter Plot. This gave a better view of the outliers.
 
 ![Boxplot3](https://github.com/NiamhOL/Project-2019/blob/master/Boxplot%20petal%20width.png)
  
-#### v Multi Box Plot
+#### iv *Petal Length 
 
-
-#### 
+To gain a better understanding of the relevent data, I created an overlay of a Box Plot and Scatter Plot. This gave a better view of the outliers.
 ![Boxplot2](https://github.com/NiamhOL/Project-2019/blob/master/Plot%20showing%20data%20points%20on%20top%20of%20boxplot.png)
 
+#### v Multi Box Plot
 
 To make it eaier for the reader to analyse all three species, I created a multi Box Plot view of all three species by Petal Length, Petal Width, Sepal Length and Sepal Width. These box plots show the univariate form of each meaurement. 
 
