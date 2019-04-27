@@ -20,8 +20,8 @@ The dataset consists of fifty samples from three species of iris (*Iris setosa, 
 
 - The iris dataset contains the following data
   - 50 samples of the 3 different species of iris (150 samples in total)
-  - Measurements: sepal lenght, sepal width, petal length and petal width.
-- The format for the data: (sepal lenght, sepal width, petal lenght, petal width)[2]
+  - Measurements: sepal length, sepal width, petal length and petal width.
+- The format for the data: (sepal length, sepal width, petal lenght, petal width)[2]
 
 ![iris](https://raw.githubusercontent.com/ritchieng/machine-learning-dataschool/master/images/03_iris.png)
 
@@ -76,7 +76,7 @@ A vairiety of plots created in Pandas Visualisation, Matplotlib and Seaborn were
 
 ### Summary of basic statistics 
 
-The fist step in anlysisng the Iris Dataset is to take a closer look at the data. There are five columns in this dataset with the following variable names: Sepal Lenght, Sepal Width, Petal Length, Petal Width and Species. The first four variables are meaurements in centimeters and the fith vairiable is the name of the species. All the species were sampled from the same location the Gaspe Peninsula, Quebec and measured bu the same person Edger Anderson. 
+The fist step in anlysisng the Iris Dataset is to take a closer look at the data. There are five columns in this dataset with the following variable names: Sepal Lenght, Sepal Width, Petal Length, Petal Width and Species. The first four variables are meaurements in centimeters and the fifth vairiable is the name of the species. All the species were sampled from the same location the Gaspe Peninsula, Quebec and measured bu the same person Edger Anderson. 
 
 ##### i. Overview of the data
 
