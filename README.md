@@ -73,7 +73,7 @@ A vairiety of plots created in Pandas Visualisation, Matplotlib and Seaborn were
 
 ### Summary of basic statistics 
 
-The fist step in anlysisng the Iris Dataset is to take a closer look at the data. There are five columns in this dataset with the following variable names: Sepal Lenght, Sepal Width, Petal Length, Petal Width and Species. The first four variables are meaurements in centimeters and the fith vairiable is the name of the species. All the species were sampled from the same location the Gaspe Peninsula and measured bu the same person Edger Anderson. 
+The fist step in anlysisng the Iris Dataset is to take a closer look at the data. There are five columns in this dataset with the following variable names: Sepal Lenght, Sepal Width, Petal Length, Petal Width and Species. The first four variables are meaurements in centimeters and the fith vairiable is the name of the species. All the species were sampled from the same location the Gaspe Peninsula, Quebec and measured bu the same person Edger Anderson. 
 
 ##### i. Overview of the data
 
@@ -151,7 +151,8 @@ The range of petal width amonngst the different species is not great. *Iris Seto
 ![Boxplot3](https://github.com/NiamhOL/Project-2019/blob/master/Boxplot%20petal%20width.png)
  
 TO gain a better understanding of the relevent data, I created an overlay of a Box Plot and Scatter Plot. This gave a better view of the outliers. 
-   
+
+#### 
 ![Boxplot2](https://github.com/NiamhOL/Project-2019/blob/master/Plot%20showing%20data%20points%20on%20top%20of%20boxplot.png)
 
 
