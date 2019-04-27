@@ -119,8 +119,9 @@ A histogram is a plot that shows the underlying frequency distribution of a set 
 
 ![Histogram3](https://github.com/NiamhOL/Project-2019/blob/master/Histogram%20with%20three%20species.png)
 
-The feature *Petal Width* can distinguish the targets better than the other features. Therefore, I created a distribution curve for *Petal Width* to take a closer look at the distribution of this data point. The distribution of the data does not follow the expected bell curve shape of normal distribution but rather has two areas of interest.
+The *Iris Setosa* petal length and width are concentrated on the far left from the rest of the sepcies.
 
+The feature *Petal Width* can distinguish the targets better than the other features. Therefore, I created a distribution curve for *Petal Width* to take a closer look at the distribution of this data point. The distribution of the data does not follow the expected bell curve shape of normal distribution but rather has two areas of interest.
 
 ![Dis](https://github.com/NiamhOL/Project-2019/blob/master/Disttribution.png)
 
@@ -132,31 +133,32 @@ The best tool to identify the outliers is the boxplot. Through the box plots, we
 
     sns.boxplot(x="Species" , y="PetalLengthCm" , data=iris)
 
-#### i *Sepal Length*
+#### *i Sepal Length*
 
 From this boxplot it can be seen the the *Iris Virginica* has the greatest range in sepal lenghts, with a max of 7.9cm, a an outlier min of 4.9cm. The lower whisker extending to 4.9 cm. Ths correlates with the overview of the means as decribed earlier. The boxplot is a good way to visualise the inter quartile range of the dats. 
 
 ![Boxplot](https://github.com/NiamhOL/Project-2019/blob/master/Boxplot%20Sepal%20length.png)
 
-#### ii *Sepal Width* 
+#### *ii Sepal Width* 
 
 The variation in sepal width between the species is not a great. Howver *Iris Setosa* does have the greatest range of sepal lenghts. 
 
 ![Boxplot](https://github.com/NiamhOL/Project-2019/blob/master/Box%20plot%20Sepal%20width.png)
 
-#### iii *Petal Width*
+#### *iii Petal Width*
 
 The range of petal width amonngst the different species is not great. *Iris Setosa* has a very small range in sizes when compared to the two other species. 
 
 
 ![Boxplot3](https://github.com/NiamhOL/Project-2019/blob/master/Boxplot%20petal%20width.png)
  
-#### iv *Petal Length 
+#### *iv Petal Length 
 
 To gain a better understanding of the relevent data, I created an overlay of a Box Plot and Scatter Plot. This gave a better view of the outliers.
+
 ![Boxplot2](https://github.com/NiamhOL/Project-2019/blob/master/Plot%20showing%20data%20points%20on%20top%20of%20boxplot.png)
 
-#### v Multi Box Plot
+#### *v Multi Box Plot
 
 To make it eaier for the reader to analyse all three species, I created a multi Box Plot view of all three species by Petal Length, Petal Width, Sepal Length and Sepal Width. These box plots show the univariate form of each meaurement. 
 
@@ -167,12 +169,11 @@ To make it eaier for the reader to analyse all three species, I created a multi 
 From these Box Plots it can be seen that Petal Length and Sepal Length have the greatest range and number of outliers, especially for "Iris-virginica".
 
 
-
 #### Facet Plot
 
-"Faceting is the act of breaking data variables up across multiple subplots and combining those subplots into a single figure." [8]
+"Faceting is the act of breaking data variables up across multiple subplots and combining those subplots into a single figure." [7]
 
-The sepal lenght of *Iris Setosa* is the longest. This would correlate with previous observations from the mean of the different species. 
+The sepal length of *Iris Setosa* is the longest. This would correlate with previous observations from the mean of the different species. 
 
     ris = iris.map(sns.kdeplot, 'SepalLengthCm')
     
@@ -196,12 +197,16 @@ By creating a multigraph resperesntation of the data is is easy to see the diffe
     sns.pairplot(iris.drop("Id", axis=1), hue="Species", height=3))
     
 
-By grouping a number of plots together is it easier for the reader to get an overview of the realtionships, if any between the different data points. FRom a quick glance of the graphas, it can be easily seen that the distribution of data for *Iris Setosa* is differnt from *Iris Verisolour* and *Iris Verginica*. This again correlates with previous observations regarding *Iris Setosa*
+By grouping a number of plots together is it easier for the reader to get an overview of the realtionships, if any between the different data points. FRom a quick glance of the graphas, it can be easily seen that the distribution of data for *Iris Setosa* is differnt from *Iris Verisolour* and *Iris Verginica*. This again correlates with previous observations regarding *Iris Setosa*.
 
 #### Violin Plot
 
+"A violin plot is a method to vizualise the distribution of numerical data of different variables. It is similar to a box plot but with a rotated plot on each side, giving more information about the desnity estimate of the y-axis." [8] 
+
+Below is an example of the code I used to generate the violin plots.
 
     sns.violinplot(x="Species" , y="PetalLengthCm" , data=iris, size=7)
+    
    
 ![violin](https://github.com/NiamhOL/Project-2019/blob/master/Violin%20plot%20Petal%20Length.png)
 
@@ -210,6 +215,8 @@ By grouping a number of plots together is it easier for the reader to get an ove
 ![violin3](https://github.com/NiamhOL/Project-2019/blob/master/Violin%20plot%20Sepal%20Length.png)
 
 ![Violin4](https://github.com/NiamhOL/Project-2019/blob/master/Violin%20plot%20Sepal%20Width.png) 
+
+The above violin plots show that the *Iris Virginica* has the highest median value in patel length, petal width and sepal length when conpared with the other two species. Howvever *Iris Setosa* has the highest sepal width median value. The *Iris Setosa* also has a significant difference between sepal length and width, against its petal length and width. 
 
 #### Hexagonal Plot
 
@@ -244,14 +251,14 @@ from pandas.tools.plotting import andrews_curves
 
 #### Radviz Analysis
 
-A Radviz plot is another multivariate data visualisation. "In Radviz, each dimension in the dataset is represented by a dimensional anchor, and each dimensional anchor is distributed evenly on a unit circle. Each line in the data set corresponds to a point in the projection, that is linked to every dimensional anchor by a spring. Each spring’s stiffness corresponds to the value for that particular thing in that particular dimension. The position of the point is defined as the point in the 2D space where the spring’s tension is minimum."[6]
+A Radviz plot is another multivariate data visualisation. "In Radviz, each dimension in the dataset is represented by a dimensional anchor, and each dimensional anchor is distributed evenly on a unit circle. Each line in the data set corresponds to a point in the projection, that is linked to every dimensional anchor by a spring. Each spring’s stiffness corresponds to the value for that particular thing in that particular dimension. The position of the point is defined as the point in the 2D space where the spring’s tension is minimum."[7]
 
 ![Radviz](https://github.com/NiamhOL/Project-2019/blob/master/Radviz%20plot.png)
 
 
 #### Correlations 
 
-Corelation in statistcs is important as it repersents how stongly pairs of vaiables are realted. Often correalation is generted by stattitical packages such as SPSS. R etc. "Like all statistical techniques, correlation is only appropriate for certain kinds of data. Correlation works for quantifiable data in which numbers are meaningful, usually quantities of some sort. It cannot be used for purely categorical data, such as gender, brands purchased, or favorite color.2 [7] I wanted to generate a visualisation of the correlations(if any) with the Iris Data Set. Therefore I used the *heatmap* funtion to see which parameters best correlate with each other. According to the correlation matrix PetalLengthCm and PetalWidthCm have positive correlation. 
+Corelation in statistcs is important as it repersents how stongly pairs of vaiables are realted. Often correalation is generted by stattitical packages such as SPSS. R etc. "Like all statistical techniques, correlation is only appropriate for certain kinds of data. Correlation works for quantifiable data in which numbers are meaningful, usually quantities of some sort. It cannot be used for purely categorical data, such as gender, brands purchased, or favorite color.2 [8] I wanted to generate a visualisation of the correlations(if any) with the Iris Data Set. Therefore I used the *heatmap* funtion to see which parameters best correlate with each other. According to the correlation matrix PetalLengthCm and PetalWidthCm have positive correlation. 
 
     plt.figure(figsize=(10, 8))
     ...: sns.heatmap(corr,
@@ -260,6 +267,7 @@ Corelation in statistcs is important as it repersents how stongly pairs of vaiab
     ...:            cmap='viridis' , annot=True)
     
 ![Correlation](https://github.com/NiamhOL/Project-2019/blob/master/Correlation%20matrix.png)
+
 
 ## Overview of different graphing libaries.
 
@@ -283,13 +291,15 @@ Python offers multiple graphing libaries that all mcome with lots of different f
 
 [3] httpS://pandas.pydata.org
 
-[] https://datascienceplus.com
+[4] https://datascienceplus.com
 
 [5],[6] https://www.statisticsviews.com/details/feature/6314441/Visualising-Statistics-The-importance-of-seeing-not-just-describing-data.html
 
-[6] https://cran.r-project.org/web/packages/Radviz/vignettes/single_cell_projections.html
+[6] https://www.datacamp.com/community/tutorials/facets-ggplot-r
 
-[7] https://www.surveysystem.com/correlation.htm
+[7] https://cran.r-project.org/web/packages/Radviz/vignettes/single_cell_projections.html
+
+[8] https://www.surveysystem.com/correlation.htm
 
 [8]https://towaardsdatascience.com/introduction-to-data-visualization-in-oython-89a54c97fbed
 
@@ -332,6 +342,7 @@ http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.608.6250&rep=rep1&type=
 
 http://mclguide.readthedocs.io/en/latest/sklearn/moreex1.html
 
+https://www.datacamp.com/community/tutorials/facets-ggplot-
 
 ## Author - Niamh O'Leary
 
