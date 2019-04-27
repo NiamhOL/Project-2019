@@ -29,7 +29,7 @@ The dataset became a test case for many statistical classification techniques in
 
 ## Task
 
-The aim of this project is to give an overview of Fisher's Iris Dataset, by using Python programming lanuage for statistical analysis. 
+The aim of this project is to give an overview of Fisher's Iris Dataset, by using Python programming language for statistical analysis. 
 In this project I have included the more interesting analyses of the data. 
 
 
@@ -132,11 +132,15 @@ The best tool to identify the outliers is the boxplot. Through the box plots, we
 
     sns.boxplot(x="Species" , y="PetalLengthCm" , data=iris)
 
-#### Sepal Lenght 
+#### *Sepal Length*
 
-From this boxplot it can be seen the the *Iris Virginica* has the greatest range in sepal lenghts, with a max of 7.9, a 
+From this boxplot it can be seen the the *Iris Virginica* has the greatest range in sepal lenghts, with a max of 7.9cm, a an outlier min of 4.9cm. The lower whisker extending to 4.9 cm. Ths correlates with the overview of the means as decribed earlier. The boxplot is a good way to visualise the inter quartile range of the dats. 
 
 ![Boxplot](https://github.com/NiamhOL/Project-2019/blob/master/Boxplot%20Sepal%20length.png)
+
+#### *Sepal Width* 
+
+The variation in sepal width between the species is not a great. This 
 
 ![Boxplot](https://github.com/NiamhOL/Project-2019/blob/master/Box%20plot%20Sepal%20width.png)
 
