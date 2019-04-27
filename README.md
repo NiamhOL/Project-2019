@@ -128,10 +128,13 @@ The feature *Petal Width* can distinguish the targets better than the other feat
 
 "The person widely attributed as being the father of visual methods is John W Tukey, the prominent statistician who pioneered Exploratory Data Analysis. He championed techniques for visually exploring data to unearth discoveries that are otherwise indiscernible in the original data form or potentially masked by the aggregating nature of some statistical treatments." [6]
 
-The best tool to identify the outliers is the boxplot. Through the box plots, we find the minimum, lower quartile (25th percentile), median (50th percentile), upper quartile (75th percentile), and a maximum of a contunues variable. 
+The best tool to identify the outliers is the boxplot. Through the box plots, we find the minimum, lower quartile (25th percentile), median (50th percentile), upper quartile (75th percentile), and a maximum of a contunues variable. The following is an example of the code I used to generate boxplots.
 
     sns.boxplot(x="Species" , y="PetalLengthCm" , data=iris)
-plt.show()
+
+#### Sepal Lenght 
+
+From this boxplot it can be seen the the *Iris Virginica* has the greatest range in sepal lenghts, with a max of 7.9, a 
 
 ![Boxplot](https://github.com/NiamhOL/Project-2019/blob/master/Boxplot%20Sepal%20length.png)
 
