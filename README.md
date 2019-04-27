@@ -174,6 +174,8 @@ Scatterplots are useful for identifying trends in statistial data. Each observat
 
 ![Scatter](https://github.com/NiamhOL/Project-2019/blob/master/graph%20assigning%20eash%20species%20a%20colour.png)
 
+![Scatter](https://github.com/NiamhOL/Project-2019/blob/master/Scatter%20petal%20length%20v%20petal%20width.png)
+
 This scatterplot Sepal Width v Sepal Lenght, shows a somewhat positive relationship for "Iris-setosa" but not as strong for the other two species.
 
 ![Relationahip](https://github.com/NiamhOL/Project-2019/blob/master/Relationships%20between%20species.png)
@@ -181,6 +183,7 @@ This scatterplot Sepal Width v Sepal Lenght, shows a somewhat positive relations
 By creating a multigraph resperesntation of the data is is easy to see the differing relationships between different data points. To plot multiple pairwise bivariate distributions for the Iris dataset, I used the pairplot() funtion in Seaborn.
 
     sns.pairplot(iris.drop("Id", axis=1), hue="Species", height=3))
+    
 
 By grouping a number of plots together is it easier for the reader to get an overview of the realtionships, if any between the different data points. FRom a quick glance of the graphas, it can be easily seen that the distribution of data for *Iris Setosa* is differnt from *Iris Verisolour* and *Iris Verginica*. This again correlates with previous observations regarding *Iris Setosa*
 
