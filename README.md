@@ -132,25 +132,30 @@ The best tool to identify the outliers is the boxplot. Through the box plots, we
 
     sns.boxplot(x="Species" , y="PetalLengthCm" , data=iris)
 
-#### *Sepal Length*
+#### i *Sepal Length*
 
 From this boxplot it can be seen the the *Iris Virginica* has the greatest range in sepal lenghts, with a max of 7.9cm, a an outlier min of 4.9cm. The lower whisker extending to 4.9 cm. Ths correlates with the overview of the means as decribed earlier. The boxplot is a good way to visualise the inter quartile range of the dats. 
 
 ![Boxplot](https://github.com/NiamhOL/Project-2019/blob/master/Boxplot%20Sepal%20length.png)
 
-#### *Sepal Width* 
+#### ii *Sepal Width* 
 
-The variation in sepal width between the species is not a great. 
+The variation in sepal width between the species is not a great. Howver *Iris Setosa* does have the greatest range of sepal lenghts. 
 
 ![Boxplot](https://github.com/NiamhOL/Project-2019/blob/master/Box%20plot%20Sepal%20width.png)
 
-#### *Petal Width*
+#### iii *Petal Width*
 
-The range of petal width amonngst the different species is not great. *Iris Setosa* has a very small range in sizes. 
+The range of petal width amonngst the different species is not great. *Iris Setosa* has a very small range in sizes when compared to the two other species. 
+
+#### iv *Petal Length 
+
+To gain a better understanding of the relevent data, I created an overlay of a Box Plot and Scatter Plot. This gave a better view of the outliers.
 
 ![Boxplot3](https://github.com/NiamhOL/Project-2019/blob/master/Boxplot%20petal%20width.png)
  
-TO gain a better understanding of the relevent data, I created an overlay of a Box Plot and Scatter Plot. This gave a better view of the outliers. 
+#### v Multi Box Plot
+
 
 #### 
 ![Boxplot2](https://github.com/NiamhOL/Project-2019/blob/master/Plot%20showing%20data%20points%20on%20top%20of%20boxplot.png)
