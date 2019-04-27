@@ -102,41 +102,9 @@ From reviewing this data is can be seen that the petal length and letal width of
 
 There are many differnt ways of using Exploratory Data Analysis to analyse Fisher's Iris Data Set. I have outlines a variety of diferent methods in the project, deccribing what can be seen from the graphs/plots and docementing the positives and negatives of using these different visualisations. Please see the file *Iris Analysis.py* in the my GitHub Respository NiamhOL/Project-2019 for a detailed description of the python code used to generated the different graphs/plots. 
 
-
-#### Boxplot
-
-"The person widely attributed as being the father of visual methods is John W Tukey, the prominent statistician who pioneered Exploratory Data Analysis. He championed techniques for visually exploring data to unearth discoveries that are otherwise indiscernible in the original data form or potentially masked by the aggregating nature of some statistical treatments." [6]
-
-The best tool to identify the outliers is the boxplot. Through the box plots, we find the minimum, lower quartile (25th percentile), median (50th percentile), upper quartile (75th percentile), and a maximum of a contunues variable. 
-
-![Boxplot](https://github.com/NiamhOL/Project-2019/blob/master/Boxplot%20Sepal%20length.png)
-
-
-![Boxplot2](https://github.com/NiamhOL/Project-2019/blob/master/Boxplot%20sepal%20width.png)
-
-
-![Boxplot3](https://github.com/NiamhOL/Project-2019/blob/master/Boxplot%20petal%20width.png)
-  
-    
-
-
-![Boxplot2](https://github.com/NiamhOL/Project-2019/blob/master/Plot%20showing%20data%20points%20on%20top%20of%20boxplot.png)
-
-I initially generated a simple Box Plot looking at PetalLenght for each species. TO gain a better understanding of the relevent data, I created an overlay of a Box Plot and Scatter Plot. This gave a better view of the outliers. 
-
-To make it eaier for the reader to analyse all three species, I created a multi Box Plot view of all three species by Petal Length, Petal Width, Sepal Length and Sepal Width. These box plots show the univariate form of each meaurement. 
-
-    sns.boxplot(by="Species" , figsize=(10, 10))
-
-![Boxplot](https://github.com/NiamhOL/Project-2019/blob/master/Boxplot%20by%20Species.png)
-
-From these Box Plots it can be seen that Petal Length and Sepal Length have the greatest range and number of outliers, especially for "Iris-virginica".
-
-
 #### Histograms
 
 A Histogram is a plot that shows the underlying frequency distribution of a set of continous data. It is a excellent way to show the normal distribution, outliers, skewness etc. I created the histogram to anaylse the Iris data in Matplotlib using the following code.
-
 
 
     for feature in range(iris.data.shape[1]):
@@ -153,9 +121,39 @@ A Histogram is a plot that shows the underlying frequency distribution of a set 
 
 The feature *Petal Width* can distinguish the targets better than the other features. Therefore, I created a distribution curve for *Petal Width* to take a closer look at the distribution of this data point. The distribution of the data does not follow the expected bell curve shape of normal distribution but rather has two areas of interest.
 
-    
 
 ![Dis](https://github.com/NiamhOL/Project-2019/blob/master/Disttribution.png)
+
+#### Boxplot
+
+"The person widely attributed as being the father of visual methods is John W Tukey, the prominent statistician who pioneered Exploratory Data Analysis. He championed techniques for visually exploring data to unearth discoveries that are otherwise indiscernible in the original data form or potentially masked by the aggregating nature of some statistical treatments." [6]
+
+The best tool to identify the outliers is the boxplot. Through the box plots, we find the minimum, lower quartile (25th percentile), median (50th percentile), upper quartile (75th percentile), and a maximum of a contunues variable. 
+
+    sns.boxplot(x="Species" , y="PetalLengthCm" , data=iris)
+plt.show()
+
+![Boxplot](https://github.com/NiamhOL/Project-2019/blob/master/Boxplot%20Sepal%20length.png)
+
+![Boxplot](https://github.com/NiamhOL/Project-2019/blob/master/Box%20plot%20Sepal%20width.png)
+
+
+![Boxplot3](https://github.com/NiamhOL/Project-2019/blob/master/Boxplot%20petal%20width.png)
+ 
+TO gain a better understanding of the relevent data, I created an overlay of a Box Plot and Scatter Plot. This gave a better view of the outliers. 
+   
+![Boxplot2](https://github.com/NiamhOL/Project-2019/blob/master/Plot%20showing%20data%20points%20on%20top%20of%20boxplot.png)
+
+
+To make it eaier for the reader to analyse all three species, I created a multi Box Plot view of all three species by Petal Length, Petal Width, Sepal Length and Sepal Width. These box plots show the univariate form of each meaurement. 
+
+    sns.boxplot(by="Species" , figsize=(10, 10))
+
+![Boxplot](https://github.com/NiamhOL/Project-2019/blob/master/Boxplot%20by%20Species.png)
+
+From these Box Plots it can be seen that Petal Length and Sepal Length have the greatest range and number of outliers, especially for "Iris-virginica".
+
+
 
 #### Facet Plot
 
