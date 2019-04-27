@@ -53,16 +53,18 @@ The following packages were used to run statistical analysis and draw grpahs for
 ## Importing packages
 
 The above packages can be imported into Python. Use **_Import_** function in **iPython** as follows:
-import pandas as pd
-import matplotlib.pyplot as plt
-import numpy as np
-import seaborn as sb
-from scripy import stats
+    import pandas as pd
+    import matplotlib.pyplot as plt
+    import numpy as np
+    import seaborn as sns
+    sns.set(style="white" , color_codes=True)
+   
 
 ## Importing the data
 
 Import the iris.csv file using panda and examine the first few lines of data and the headings. 
 
+    iris = pd.read_csv('Iris.csv')
 
 ## Using Python for statistical analysis of the dataset
 
@@ -253,7 +255,8 @@ A Radviz plot is another multivariate data visualisation. "In Radviz, each dimen
 
 ![Radviz](https://github.com/NiamhOL/Project-2019/blob/master/Radviz%20plot.png)
 
-The radviz plot shows a multivariate distribution of all three species, with all the measurements for sepal length & width and petal length & width show in a circle. 
+The radviz plot shows a multivariate distribution of all three species, with all the measurements for sepal length & width and petal length & width show in a circle. The *Iris Setosa* is repersented by a cluster towards the 12 o'clock position of the circle. It is very difficult to distinguish between *Iris versicolor* and *Iris virginica*, which indicated that both these species are highly collreated. 
+
 #### Correlations 
 
 Corelation in statistcs is important as it repersents how stongly pairs of vaiables are realted. Often correalation is generted by stattitical packages such as SPSS. R etc. "Like all statistical techniques, correlation is only appropriate for certain kinds of data. Correlation works for quantifiable data in which numbers are meaningful, usually quantities of some sort. It cannot be used for purely categorical data, such as gender, brands purchased, or favorite color.2 [8] I wanted to generate a visualisation of the correlations(if any) with the Iris Data Set. Therefore I used the *heatmap* funtion to see which parameters best correlate with each other. According to the correlation matrix PetalLengthCm and PetalWidthCm have positive correlation. 
