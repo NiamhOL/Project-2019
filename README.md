@@ -44,7 +44,7 @@ The following packages were used to run statistical analysis and draw grpahs for
 - **_Python_** https://www.python.org/downloads/ 
 - **_Anaconda_** https://www.anaconda.com/distribution/ - is the easiest way to perfrom Python data science machine learning on Linux, Windows and Mac OS. 
 - **_iPython_** https://ipython.org/ - it an interactive command-line terminal for Python.
-- **_Pandas_** https://pandas.pydata.org/ - pandas is an "open source, BSD-licensed library providing high-perfromance, easy-to-use data structures and data analysis tool."[3] 
+- **_Pandas_** https://pandas.pydata.org/ - pandas is an "open source, BSD-licensed library providing high-performance, easy-to-use data structures and data analysis tool."[3] 
 - **_Scripy_** https://pypi.org/project/Scripy/ - which allows the user to run system commands in the same shell through it's main tool *shell.Run().
 - **_Numpy_** http://www.numpy.org/ - is the fundamental package for scientific computing within Python.
 - **_Matplotlib_** https://matplotlib.org/ - is a 2D plotting library within Python within which the user can generate a wide variety of figures, including plots, histograms, scetterplots etc.
@@ -66,10 +66,10 @@ Import the iris.csv file using panda and examine the first few lines of data and
 
 ## Using Python for statistical analysis of the dataset
 
-All the Python code used to analyse the Iris Dataset is available in the Github respioratory associated with this project. 
-A vairiety of plots created in Pandas VIsualisation, Matplotlib and Seaborn were created to analyse the dataset. I used differnt graphing libaries as a way to gain a greater understanding as to the postivies and negatives of using these different libaries.
+All the Python code used to analyse the Iris Dataset is available in the Github repository associated with this project. 
+A vairiety of plots created in Pandas Visualisation, Matplotlib and Seaborn were created to analyse the dataset. I used differnt graphing libaries as a way to gain a greater understanding as to the postivies and negatives of using these different libaries.
 
-[Lets go to Python code](
+[Lets go to Python code](https://github.com/NiamhOL/Project-2019/blob/master/Iris%20Analysis.py)
 
 ### Summary of basic statistics 
 
@@ -87,7 +87,7 @@ When analysing a dataset it is important to firstly gain an understanding of the
 
 ![Sample](https://github.com/NiamhOL/Project-2019/blob/master/iris%20overview%20sample.PNG)
 
-By using head, tail and sample functions is it possible to get a general overiew of the datset at different levels. This allows for a great understanding of the data anvailable for analysis. Using the*sample* function generates a random sample of the data within the database. From this one can see that 'Iris-setosa' appears to have a smaller petal compared to the other species. Therefore, even without detailed stastical analysis, there are already signs of compariability between 'Iris-virginica' and 'Iris-versicolor'.
+By using head, tail and sample functions is it possible to get a general overiew of the datset at different levels. This allows for a great understanding of the data anvailable for analysis. Using the*sample* function generates a random sample of the data within the database. From this one can see that *Iris-setosa* appears to have a smaller petal compared to the other species. Therefore, even without detailed stastical analysis, there are already signs of compariability between *Iris-virginica* and *Iris-versicolor*.
 
 #### ii. Summary of the dataset
 
@@ -104,7 +104,7 @@ There are many differnt ways of using Exploratory Data Analysis to analyse Fishe
 
 #### Histograms
 
-A Histogram is a plot that shows the underlying frequency distribution of a set of continous data. It is a excellent way to show the normal distribution, outliers, skewness etc. I created the histogram to anaylse the Iris data in Matplotlib using the following code.
+A histogram is a plot that shows the underlying frequency distribution of a set of continous data. It is a excellent way to show the normal distribution, outliers, skewness etc. I created the histogram to anaylse the Iris data in Matplotlib using the following code.
 
 
     for feature in range(iris.data.shape[1]):
@@ -140,10 +140,13 @@ From this boxplot it can be seen the the *Iris Virginica* has the greatest range
 
 #### *Sepal Width* 
 
-The variation in sepal width between the species is not a great. This 
+The variation in sepal width between the species is not a great. 
 
 ![Boxplot](https://github.com/NiamhOL/Project-2019/blob/master/Box%20plot%20Sepal%20width.png)
 
+#### *Petal Width*
+
+The range of petal width amonngst the different species is not great. *Iris Setosa* has a very small range in sizes. 
 
 ![Boxplot3](https://github.com/NiamhOL/Project-2019/blob/master/Boxplot%20petal%20width.png)
  
