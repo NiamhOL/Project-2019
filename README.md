@@ -53,6 +53,7 @@ The following packages were used to run statistical analysis and draw grpahs for
 ## Importing packages
 
 The above packages can be imported into Python. Use **_Import_** function in **iPython** as follows:
+
     import pandas as pd
     import matplotlib.pyplot as plt
     import numpy as np
